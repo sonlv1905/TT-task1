@@ -6,7 +6,12 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url(../font/Roboto-Regular.ttf);
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Noto";
+    src: url(../font/Noto_Serif/NotoSerif-Regular.ttf);
 }
 
 body {
@@ -128,7 +133,7 @@ ul .left-list li{
 }
 
 .header__nav-img{
-    margin:11px 0 13px 0;
+    margin:12px 0 12px 18px;
 }
 
 /* MAIN */
@@ -206,7 +211,7 @@ ul .left-list li{
     width: 452px;
     height: 96px;
 
-    font-family: "Noto" Serif;
+    font-family: "Noto";
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -514,6 +519,11 @@ ul .left-list li{
     color: rgb(253, 80, 80);
 }
 
+.container__news2-right li:nth-last-child(2) .ck-center{
+    font-weight: 500;
+    color: rgb(253, 80, 80);
+}
+
 .container__news2-right li:first-child div:first-child{
     border-bottom: 3px solid #147ADE;
     color: #147ADE;
@@ -678,7 +688,7 @@ ul .left-list li{
     width: 530px;
     height: 330px;
     margin-bottom: 12;
-    background-image: url('bg/video-1.jpg');
+    background-image: url('../img/video-1.jpg');
 }
 
 .container__video-contents--left span{
@@ -767,19 +777,19 @@ ul .left-list li{
 }
 
 .img1{
-    background-image: url('bg/video-item-1.jpg');
+    background-image: url('../img/video-item-1.jpg');
 }
 
 .img2{
-    background-image: url('bg/video-item-2.jpg');
+    background-image: url('../img/video-item-2.jpg');
 }
 
 .img3{
-    background-image: url('bg/video-item-3.jpg');
+    background-image: url('../img/video-item-3.jpg');
 }
 
 .img4{
-    background-image: url('bg/video-item-4.jpg');
+    background-image: url('../img/video-item-4.jpg');
 }
 
 .container__video-contents--right .contents-title{
