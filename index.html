@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>DN&TT</title>
+        <title>Home</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="báo điện tử, tin tức, luật pháp,">
         <link href="assets/css/home.css" rel="stylesheet">
-        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/fontawesome/css/all.css">
     </head>
     <body>
     
@@ -44,7 +45,7 @@
                                 <a href="#" title="Trang chủ">TRANG CHỦ</a>
                             </li>
                             <li ><a href="#" title="Sự kiện">SỰ KIỆN</a></li>
-                            <li ><a href="#" title="Doanh nghiệp">DOANH NGHIỆP</a> </li>
+                            <li ><a href="category.html" title="Doanh nghiệp">DOANH NGHIỆP</a> </li>
                             <li ><a href="#" title="Tiếp thị">TIẾP THỊ</a></li>
                             <li ><a href="#" title="Kinh tế">KINH TẾ</a></li>
                             <li ><a href="#" title="Xã hội">XÃ HỘI</a></li>
@@ -54,7 +55,92 @@
                             <li><img class="header__nav-img" src="assets/img/Vector_search.png" alt=""></li>
                         </ul>
                     </div>
-                    <div ><img class="header__nav-img" src="assets/img/Vector (Stroke).png" alt=""></div>
+                    <div class="header__nav-right">
+                        <div id="toggle"><img  src="assets/img/Vector (Stroke).png" alt=""></div>
+                        <div id="close">
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div id="header__modal">
+                            <div class="header__category-list">
+                                <ul class="header__category-item">
+                                    <li class="item-title"><a href="#" title="Sự kiện">sự kiện</a></li>
+                                    <li class="item-content"><a href="#" title="Chính trị - xã hội">Chính trị - Xã hội</a></li>
+                                    <li class="item-content"><a href="#" title="Cải cách hành chính">Cải cách hành chính</a></li>
+                                    <li class="item-content"><a href="#" title="Tiêu điểm">Tiêu điểm</a></li>
+                                    <li class="item-content"><a href="#" title="Tin địa phương">Tin địa phương</a></li>
+                                    <li class="item-content"><a href="#" title="Hoạt động xã hội">Hoạt động xã hội</a></li>
+                                </ul>
+                                <ul class="header__category-item">
+                                    <li class="item-title"><a href="#" title="Doanh nghiệp">doanh nghiệp</a></li>
+                                    <li class="item-content"><a href="#" title="Diễn đàn">Diễn đàn</a></li>
+                                    <li class="item-content"><a href="#" title="Thương hiệu">Thương hiệu</a></li>
+                                    <li class="item-content"><a href="#" title="Trách nhiệm xã hội">Trách nhiệm xã hội</a></li>
+                                    <li class="item-content"><a href="#" title="Thông tin thương hiệu">Thông tin thương hiệu</a></li>
+                                    <li class="item-content"><a href="#" title="Khởi nghiệp">Khởi nghiệp</a></li>
+                                </ul>
+                                <ul class="header__category-item">
+                                    <li class="item-title"><a href="#" title="Tiếp thị">Tiếp thị</a></li>
+                                    <li class="item-content"><a href="#" title="Nhịp đập thị trường">Nhịp đập thị trường</a></li>
+                                    <li class="item-content"><a href="#" title="Tiếp thị số">Tiếp thị số</a></li>
+                                    <li class="item-content"><a href="#" title="Dịch vụ">Dịch vụ</a></li>
+                                    <li class="item-content"><a href="#" title="Bảo vệ người tiêu dùng">Bảo vệ người tiêu dùng</a></li>
+                                </ul>
+                                <ul class="header__category-item">
+                                    <li class="item-title"><a href="#" title="Kinh tế">kinh tế</a></li>
+                                    <li class="item-content"><a href="#" title="Kinh doanh">Kinh doanh</a></li>
+                                    <li class="item-content"><a href="#" title="Tài chính -Đầu tư">Tài chính -Đầu tư</a></li>
+                                    <li class="item-content"><a href="#" title="Ngân hàng">Ngân hàng</a></li>
+                                    <li class="item-content"><a href="#" title="Bất động sản">Bất động sản</a></li>
+                                    <li class="item-content"><a href="#" title="Chứng khoán">Chứng khoán</a></li>
+                                </ul>
+                                <ul class="header__category-item">
+                                    <li class="item-title"><a href="#" title="Xã hội">Xã hội</a></li>
+                                    <li class="item-content"><a href="#" title="Văn hoá">Văn hoá</a></li>
+                                    <li class="item-content"><a href="#" title="Giáo dục">Giáo dục</a></li>
+                                    <li class="item-content"><a href="#" title="Sức khoẻ">Sức khoẻ</a></li>
+                                    <li class="item-content"><a href="#" title="Du lịch">Du lịch</a></li>
+                                    <li class="item-content"><a href="#" title="Ẩm thực">Ẩm thực</a></li>
+                                </ul>
+                                <ul class="header__category-item">
+                                    <li class="item-title"><a href="#" title="Pháp luật">pháp luật</a></li>
+                                    <li class="item-content"><a href="#" title="Chính sách mới">Chính sách mới</a></li>
+                                    <li class="item-content"><a href="#" title="Tiếp thị và Pháp luật">Tiếp thị và Pháp luật</a></li>
+                                    <li class="item-content"><a href="#" title="Tư vấn">Tư vấn</a></li>
+                                    <li class="item-content"><a href="#" title="Luật sư của bạn">Luật sư của bạn</a></li>
+                                    <li class="item-content"><a href="#" title="Đơn thư bạn đọc">Đơn thư bạn đọc</a></li>
+                                </ul>
+                                <ul class="header__category-item">
+                                    <li class="item-title"><a href="#" title="Quốc tế">quốc tế</a></li>
+                                    <li class="item-content"><a href="#" title="Thế giới">Thế giới</a></li>
+                                    <li class="item-content"><a href="#" title="Tư liệu">Tư liệu</a></li>
+                                    <li class="item-content"><a href="#" title="Phân tích-Bình luận">Phân tích-Bình luận</a></li>
+                                </ul>
+                            </div>
+                            <ul class="header__media-list">
+                                <li class="header__media-item">
+                                    <a href="#" title="Video"><img src="assets/img/menu-video.png" alt="video"></a>
+                                    <a href="#" title="Video"><p>video</p></a>
+                                </li>
+                                <li class="header__media-item">
+                                    <a href="#" title="Ảnh"> <img src="assets/img/menu-image.png" alt="Anh"></a>
+                                    <a href="#" title="Ảnh"><p>ảnh</p></a>
+                                </li>
+                                <li class="header__media-item">
+                                    <a href="#" title="Infographic"><img src="assets/img/menu-infographic.png" alt="Infographic"></a>
+                                    <a href="#" title="Infographic"><p>infographic</p></a>
+                                </li>
+                                <li class="header__media-item">
+                                    <a href="#" title="Emagazine"><img src="assets/img/menu-emagazine.png" alt="Emagazine"></a>
+                                    <a href="#" title="Emagazine"><p>emagazine</p></a>
+                                </li>
+                                <li class="header__media-item">
+                                    <a href="#" title="Tạp chí in"><img src="assets/img/menu-magazine.png" alt="Magazine"></a>
+                                    <a href="#" title="Tạp chí in"><p>tạp chí in</p></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -88,6 +174,7 @@
                         </div>
                         <h6>
                             <a href="#" class="left-content" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện">
+                                <img src="assets/img/anh-img.png" alt="anh">
                                 Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện 
                             </a>
                         </h6>
@@ -106,7 +193,7 @@
                         <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện 'bình thường mới'">
                             <img class="center-img" src="assets/img/Rectangle 2.png" alt="img1">
                         </a>
-                        <div class="center-category"><a href="#">xã hội</a></div>
+                        <div class="center-category"><a href="#" title="Xã hội">xã hội</a></div>
                         <h2>
                             <a href="#" class="center-title" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện 'bình thường mới'">Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"</a>
                         </h2>
@@ -160,7 +247,7 @@
                     <div class="container__news2-left">
                         <div class="container__news2-left--first">
                             <div class="news2-nav">
-                                <p class="news2-nav-left">Tiếp thị</p>
+                                <a href="#" title="TIẾP THỊ"><p class="news2-nav-left">TIẾP THỊ</p></a>
                                 <ul class="news2-nav-right">
                                     <li><a href="#" title="Thương mại">thương mại</a></li>
                                     <li><a href="#" title="Văn hoá tiếp thị">văn hoá tiếp thị</a></li>
@@ -241,7 +328,7 @@
                         </div>
                         <div class="container__news2-left--third">
                             <div class="news2-emagazine">
-                                <div class="news2-category">Emagazine</div>
+                                <div class="news2-category"><a href="#" title="Emagazine">Emagazine</a></div>
                                 <div class="news2-emagazine--list">
                                     <div class="news2-emagazine--contents">
                                         <a href="#" title='Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp'><img src="assets/img/Rectangle 12.png" alt="anh"></a>
@@ -262,7 +349,7 @@
                                 </div>
                             </div>
                             <div class="news2-readmore">
-                                <div class="news2-category">Tin đọc nhiều</div>
+                                <div class="news2-category"><a href="#" title="Tin đọc nhiều">Tin đọc nhiều</a></div>
                                 <ul class="news2-readmore--list">
                                     <li class="news2-readmore--item">
                                         <div class="readmore-item--stt">1.</div>                                        
@@ -421,8 +508,8 @@
                 <div class="container__line-video"></div>
                 <div class="container__video">
                     <div class="container__video-category">
-                        <img src="assets/img/Vector video.png" alt="video">
-                        <p>Video</p>
+                        <a href="#" title="Video"><img src="assets/img/Vector video.png" alt="video"></a>
+                        <a href="#" title="Video">Video</a>
                     </div>
                     <div class="container__video-contents">
                         <div class="container__video-contents--left">
@@ -489,14 +576,14 @@
                         <div class="container__news3-left--item">
                             <div class="nav">
                                 <div class="nav-left">
-                                    <img src="assets/img/sukien.png" alt="su kien">
-                                    <span class="category">sự kiện</span>
+                                    <a href="#" title="Sự kiện"><img src="assets/img/sukien.png" alt="su kien"></a>
+                                    <a href="#" title="Sự kiện" class="category">sự kiện</a>
                                 </div>
                                 <ul class="nav-right">
                                     <li><a href="#" title="Chính trị - xã hội">Chính trị - xã hội</a></li>
                                     <li><a href="#" title="Cải cách hành chính">cải cách hành chính</a></li>
                                     <li><a href="#" title="Tiêu điểm">tiêu điểm</a></li>
-                                    <li><a href="#" title="Xem thêm">...</a></li>
+                                    <li><a href="#" title="Xem thêm"><i class="fas fa-ellipsis-h"></i></i></a></li>
                                 </ul>
                             </div>
                             <div class="contents">
@@ -525,14 +612,14 @@
                         <div class="container__news3-left--item">
                             <div class="nav">
                                 <div class="nav-left">
-                                    <img src="assets/img/doanhnghiep.png" alt="doanhnghiep">
-                                    <span class="category">doanh nghiệp</span>
+                                    <a href="#" title="Doanh nghiệp"><img src="assets/img/doanhnghiep.png" alt="doanhnghiep"></a>
+                                    <a href="#" title="Doanh nghiệp" class="category">doanh nghiệp</a>
                                 </div>
                                 <ul class="nav-right">
                                     <li><a href="#" title='Chính trị - xã hội'>Chính trị - xã hội</a></li>
                                     <li><a href="#" title='Cải cách hành chính'>cải cách hành chính</a></li>
                                     <li><a href="#" title='Tiêu điểm'>tiêu điểm</a></li>
-                                    <li><a href="#" title='Xem thêm'>...</a></li>
+                                    <li><a href="#" title='Xem thêm'><i class="fas fa-ellipsis-h"></i></a></li>
                                 </ul>
                             </div>
                             <div class="contents">
@@ -561,14 +648,14 @@
                         <div class="container__news3-left--item">
                             <div class="nav">
                                 <div class="nav-left">
-                                    <img src="assets/img/Economy.png" alt="kinhte">
-                                    <span class="category">kinh tế</span>
+                                    <a href="#" title="Kinh tế"><img src="assets/img/Economy.png" alt="kinhte"></a>
+                                    <a href="#" title="Kinh tế" class="category">kinh tế</a>
                                 </div>
                                 <ul class="nav-right">
                                     <li><a href="#" title="Chính trị - xã hội">Chính trị - xã hội</a></li>
                                     <li><a href="#" title="Cải cách hành chính">cải cách hành chính</a></li>
                                     <li><a href="#" title="Tiêu điểm">tiêu điểm</a></li>
-                                    <li><a href="#" title="Xem thêm">...</a></li>
+                                    <li><a href="#" title="Xem thêm"><i class="fas fa-ellipsis-h"></i></a></li>
                                 </ul>
                             </div>
                             <div class="contents">
@@ -597,14 +684,14 @@
                         <div class="container__news3-left--item">
                             <div class="nav">
                                 <div class="nav-left">
-                                    <img src="assets/img/xahoi.png" alt="xahoi">
-                                    <span class="category">xã hội</span>
+                                    <a href="#" title="Xã hội"><img src="assets/img/xahoi.png" alt="xahoi"></a>
+                                    <a href="#" title="Xã hội" class="category">xã hội</a>
                                 </div>
                                 <ul class="nav-right">
                                     <li><a href="#" title="Chính trị - xã hội">Chính trị - xã hội</a></li>
                                     <li><a href="#" title="Cải cách hành chính">cải cách hành chính</a></li>
                                     <li><a href="#" title="Tiêu điểm">tiêu điểm</a></li>
-                                    <li><a href="#" title="Xem thêm">...</a></li>
+                                    <li><a href="#" title="Xem thêm"><i class="fas fa-ellipsis-h"></i></a></li>
                                 </ul>
                             </div>
                             <div class="contents">
@@ -633,14 +720,14 @@
                         <div class="container__news3-left--item">
                             <div class="nav">
                                 <div class="nav-left">
-                                    <img src="assets/img/Law.png" alt="phap luat">
-                                    <span class="category">pháp luật</span>
+                                    <a href="#" title="Pháp luật"><img src="assets/img/Law.png" alt="phap luat"></a>
+                                    <a href="#" title="Pháp luật" class="category">pháp luật</a>
                                 </div>
                                 <ul class="nav-right">
                                     <li><a href="#" title="Chính trị - xã hội">Chính trị - xã hội</a></li>
                                     <li><a href="#" title="Cải cách hành chính">cải cách hành chính</a></li>
                                     <li><a href="#" title="Tiêu điểm">tiêu điểm</a></li>
-                                    <li><a href="#" title="Xem thêm">...</a></li>
+                                    <li><a href="#" title="Xem thêm"><i class="fas fa-ellipsis-h"></i></a></li>
                                 </ul>
                             </div>
                             <div class="contents">
@@ -669,14 +756,14 @@
                         <div class="container__news3-left--item">
                             <div class="nav">
                                 <div class="nav-left">
-                                    <img src="assets/img/QT.png" alt="quoc te">
-                                    <span class="category">quốc tế</span>
+                                    <a href="#" title="Quốc tế"><img src="assets/img/QT.png" alt="quoc te"></a>
+                                    <a href="#" title="Quốc tế" class="category">quốc tế</a>
                                 </div>
                                 <ul class="nav-right">
                                     <li><a href="#" title="Chính trị - xã hội">Chính trị - xã hội</a></li>
                                     <li><a href="#" title="Cải cách hành chính">cải cách hành chính</a></li>
                                     <li><a href="#" title="Tiêu điểm">tiêu điểm</a></li>
-                                    <li><a href="#" title="Xem thêm">...</a></li>
+                                    <li><a href="#" title="Xem thêm"><i class="fas fa-ellipsis-h"></i></a></li>
                                 </ul>
                             </div>
                             <div class="contents">
@@ -756,6 +843,8 @@
             </div>
         </div>
         </footer>
+
+        <script src="./assets/js/main.js"></script>
 
     </body>
 </html>
