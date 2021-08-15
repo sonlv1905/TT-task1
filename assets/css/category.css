@@ -26,16 +26,6 @@
     margin-right: 31px;
 } */
 
-.container__left-nav h4 a{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-
-    text-transform: uppercase;
-    color: #147ADE;
-}
-
 .container__left-nav li:not(:last-child){
     padding-right: 8px;
     margin-right: 12px;
@@ -43,13 +33,6 @@
 }
 
 .container__left-nav li a{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
     color: #454545;
 }
 
@@ -76,23 +59,7 @@
     margin-top: 16px;
 }
 
-.container__left-news1 h2 a{
-    font-family: "NotoSerif-Regular";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-    
-    color: #121212;
-}
-
 .container__left-news1 .news1-left p{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    
-    color: #454545;
     margin-top: 12px;
 }
 
@@ -104,14 +71,14 @@
     margin:12px 0;
 }
 
-.container__left-news1 .news1-right h4 a{
+/* .container__left-news1 .news1-right h4 a{
     font-style: normal;
     font-weight: bold;
     font-size: 19px;
     line-height: 26px;
     
     color: #121212;
-}
+} */
 
 .container__left-news1 .news1-right{
     width:243px;
@@ -130,6 +97,7 @@
 }
 
 .container__left-news1 .news1-right p a{
+    font-family: "Roboto-Medium";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -143,13 +111,13 @@
 
 .container__lines .container__line-odd{
     /* width: 100%; */
-    border: 1px dashed #BDBDBD;
+    border-top: 1px dashed #BDBDBD;
 }
 
 .container__lines .container__line-even{
     /* width: 100%; */
     margin:2px;
-    border: 1px dashed #BDBDBD;
+    border-top: 1px dashed #BDBDBD;
 }
 
 /* News2 */
@@ -184,28 +152,7 @@
 }
 
 .news2-second--content .second-category{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 16px;
-    /* identical to box height, or 145% */
-    
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
     margin: 10px 0;
-}
-.news2-second--content .second-category a{
-    color: #147ADE;
-}
-
-.news2-second--content .second-content{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    
-    color: #454545;
 }
 
 .container__news2-btn{
@@ -218,11 +165,6 @@
 
 .container__news2-btn p{
     float: left;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
-
     padding: 7px 0 6px 13px;
     color: #FFFFFF;
 }
