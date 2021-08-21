@@ -342,6 +342,7 @@ a{
 
 .header__top-list a{
     text-decoration:none;
+    color: #454545;
 }
 
 ul .left-list{
@@ -420,9 +421,17 @@ ul .left-list li{
 
 /* TOGGLE */
 
+.header__nav-right{
+    display: flex;
+    align-items: center;
+}
+
 .header__nav-right #toggle{
+    display: flex;
+    align-items: center;
+    margin: 0px 12.5px;
     font-size: 15px;
-    padding:10px 13px ;
+    /* padding:10px 13px ; */
     cursor: pointer;
 }
 
